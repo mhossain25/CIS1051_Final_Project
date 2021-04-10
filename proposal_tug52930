@@ -1,0 +1,86 @@
+# Proposal
+
+## What will (likely) be the title of your project?
+
+Discounted Cash Flows in Python
+
+## In just a sentence or two, summarize your project. (E.g., "A website that lets you buy and sell stocks.")
+
+A program file that allows a user to plot a series of cash inflows and outflows over a period of time. 
+
+## In a paragraph or more, detail your project. What will your software do? What features will it have? How will it be executed?
+
+The program should allow the user to input a planning horizon, which is the time period in which cash flows will be inserted. Then the program should allow the user to input
+the cash flow for each time increment of the planning horizon until it reaches the last time increment. Thereafter, the program should create a plot of the cash flows, which
+will show arrows from a common axis indicating the magnitude and direction of the cash flow for each time increment. Alternatively, a user should be able to generate a similiar
+cash flow if the user specifies other cash flow series, such as uniform (equal cash flows over time period) and geometric (cash flows that increase linearly over time). 
+The output is simply the cash flow diagram of the inputted values over the planning horizon. However, outputs for the present worth or future worth of an entire series is
+possible if a fixed interest rate is inputted at the beginning of the program. Variable interest rates exist, but its implementation is outside the scope of the project. 
+
+The ideal case is that as the user inputs the cah flows for each increment, the program will update the plot of the cash flow diagram in real time. However, the easier setup
+will be to have the user input all of the cash flows to be plotted and then have the program plot the entire cash flow diagram at once. 
+
+## If planning to combine 1051's final project with another course's final project, with which other course? And which aspect(s) of your proposed project would relate to 1051, and which aspect(s) would relate to the other course?
+
+This project is partially used for ENGR-3001, Engineering Economics. Portions of this project pertaining to this course would be using the Python language to code the entire
+project; this involves fundamental usages of programming language, but requires usage of Python libraries specifically. The portion pertaining to the ENGR-3001 project would be
+how the code is formulated to represent the cash flow diagram and those subsequent steps, i.e. how to ask for the planning horizon, how to match cash flows with their proper
+
+
+## If planning to collaborate with 1 or 2 classmates for the final project, list their names, email addresses, and the names of their assigned TAs below.
+
+TODO, if applicable
+
+## In the world of software, most everything takes longer to implement than you expect. And so it's not uncommon to accomplish less in a fixed amount of time than you hope.
+
+Users should be able to:
+- input a planning horizon
+- input singular cash flows for each time increment
+
+the program should output:
+- the plot of the cash flow diagram (after all cash flows have been inputted)
+  - correct directions
+  - correct magnitudes
+  - correct order
+
+### In a sentence (or list of features), define a BETTER outcome for your final project. I.e., what do you THINK you can accomplish before the final project's deadline?
+
+Users should be able to: 
+- input a planning horizon
+- indicate what kind of series should be introduced, if at all
+- input the series magnitude and linear increase/decrease, if applicable
+- OR input singular cash flows for each time increment
+
+the program should output:
+- the plot of the cash flow diagram (after all cash flows have been inputted)
+  - correct directions
+  - correct magnitudes
+  - correct order
+  - maximum cash flow
+  - minimum cash flow
+
+
+
+
+### In a sentence (or list of features), define a BEST outcome for your final project. I.e., what do you HOPE to accomplish before the final project's deadline?
+
+Users should be able to: 
+- input a planning horizon
+- indicate what kind of series should be introduced, if at all
+- input the series magnitude and linear increase/decrease, if applicable
+- AND input singular cash flows for each time increment
+- input a interest rate for present worth or future worth
+
+the program should output:
+- the plot of the cash flow diagram (while each cash flow is inputted)
+  - correct directions
+  - correct magnitudes
+  - correct order
+  - maximum cash flow
+  - minimum cash flow
+ - present worth of the cash flows on program prompt
+ - future worth of the cash flows on program prompt
+
+## In a paragraph or more, outline your next steps. What new skills will you need to acquire? What topics will you need to research? If working with one of two classmates, who will do what?
+
+TODO
