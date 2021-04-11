@@ -83,4 +83,8 @@ the program should output:
 
 ## In a paragraph or more, outline your next steps. What new skills will you need to acquire? What topics will you need to research? If working with one of two classmates, who will do what?
 
-TODO
+The next steps are to determine the ins and outs of how cash flow diagrams work; this would be like understanding the various ways to represent them and which ones are the easiest.
+Also, since I don't have a lot of plotting experience with Python, learning the various libraries that help with plotting is also important to research and become familiar with. 
+This is a simpler project in that you simply require the user to input some values and a plot shows up. However, this means that error trapping and making the code easy for
+the user to learn and use is of utmost priority. We can assume that someone who does not know how programming works should be able to run this program. Thus, additional research
+for turning the program into its own file (something like Excel but way less complex) and usage of buttons and such can be done to smooth out the process for the user.
