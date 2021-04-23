@@ -1,0 +1,50 @@
+# Status Report
+
+#### Your name
+
+Meem Hossain
+
+#### Your section leader's name
+
+Meem Hossain
+
+#### Project title
+
+Discounted Cash Flow Diagrams
+
+***
+
+Short answers for the below questions suffice. If you want to alter your plan for your project (and obtain approval for the same), be sure to email your section leader directly!
+
+#### What have you done for your project so far?
+
+If you have the proposal up, I have completed the "good" outcome and most of the "better" outcome.
+This includes asking users to:
+- input a planning horizon
+- input singular cash flows for each time increment
+- OR indicate what series should be introduced to the diagram
+- input series magnitude and time increment (if applicable)
+Doing this should have the program:
+- plot the cash flows of the diagram (after all cash flows have been inputted)
+- the plots have:
+        - correct order
+        - correct magnitude
+        - correct directions
+        - 
+#### What have you not done for your project yet?
+
+I have to complete the "best" outcome for my project. This includes:
+- When asking users, being able to plot BOTH series and individual cash flows
+- highlighting maximum and minimum cash flows on the plot
+- Asking users for an interest rate or a Minimum Attractive Rate of Return (MARR)
+- Calculating present, future, and annual worth of the cash flows on prompt
+
+
+#### What problems, if any, have you encountered?
+
+One big problem has been time constraints because I did not make significant progress
+until sometime last week because I have been busy with Senior Design. Also, my weekends
+are rarely free because I work most of the weekend at our family store.
+
+I see a potential issue when trying to implement the addition of multiple cash flow types.
+This involves adding up multiple lists and I'm not sure how Python does that (unless it's similiar to MATLAB.)
