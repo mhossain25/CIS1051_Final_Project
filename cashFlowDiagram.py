@@ -1,8 +1,53 @@
-choice = input("Type 'D' to manually insert your own cash flows or type 'S' to insert a type of series.")
-choice = choice.upper()
-if choice == 'D':
-    import DCF
-elif choice == 'S':
-    import seriesCF
-else:
-    print("You didn't select an option.")
+import matplotlib as plt
+
+def horizoninput():
+    horizon = input("Please enter the planning horizon of your investment: ")
+    horizon = int(horizon)+1
+    return horizon
+    
+def singularCashFlow(horizon):
+    cashFlow = []
+    for i in range(horizon):
+        theCash = input("Please enter the cash flow for time step " + str(i) + ": ")
+        theCash = int(theCash)
+        cashFlow.append(theCash)
+    return cashFlow
+
+def singularCashFlowDiagram(years,cashes):
+    yearsList = list(range(0,years))
+    plt.bar(yearsList,cashes,width=.1,tick_label=yearsList)
+    plt.show()
+
+def uniformSeriesCashFlow():
+    seriesCash = input("Please enter the value of the uniform series: ")
+    seriesCash = int(seriesCash)
+    return seriesCash
+
+def uniformCashFlowDiagram(years,cashes):
+    yearsList = list(range(0,years))
+    cashFlow = [cashes]*horizon
+    plt.bar(yearsList,cashes,width=.1,tick_label=yearsList)
+    plt.show()
+    return cashFlow
+
+def gradientSeriesCashFlow()
+        firstCash = input("Please enter the first value of the gradient series: ")
+        firstCash = int(firstCash)
+        increment = input("Please enter how much the series will change per year: ")
+        increment = int(increment)
+        return [firstCash,increment]
+
+def gradientCashFlowDiagram(years,initialcash,incremental):
+    yearsList = list(range(0,years))
+    cashList = []
+    for i in range(years):
+        if i == 0:
+            cashList.append(0)
+        else:
+            cashList.append(initialcash+i*incremental)
+    plt.bar(yearsList,cashList,width = .1,tick_label = yearsList)
+    plt.show()
+    return cashList
+
+#def worthOfseries(horizon,):
+    
